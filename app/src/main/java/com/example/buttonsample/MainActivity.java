@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             Log.d("MAD", "Button 3 clicked");
     }
 
-    class btn1Handler implements Button.OnClickListener  // inner class
+    class btn1Handler implements Button.OnClickListener  // inner class to handle clicks on btn1
     {
         public void onClick(View v) {
             Log.d("MAD", "Button 1 clicked");
