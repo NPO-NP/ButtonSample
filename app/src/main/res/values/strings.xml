@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ButtonSample</string>
+    <string name="btnSave">Button 1</string>
+
 </resources>
