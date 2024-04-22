@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        Button btn1 = (Button)this.findViewById(R.id.button);
-        Button btn2 = (Button)this.findViewById(R.id.button2);
-        Button btn4 = (Button)this.findViewById(R.id.button4);
+        Button btn1 = findViewById(R.id.button);
+        Button btn2 = findViewById(R.id.button2);
+        Button btn4 = findViewById(R.id.button4);
 
         btn1.setOnClickListener(new btn1Handler()); // need to define btn1Handler class below
 
