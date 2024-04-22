@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn4.setOnClickListener(v -> { // Using Lambda
-            Log.d("MAD", "Button 2 clicked");
-            Toast.makeText(getBaseContext(), "Button 4 clicked", Toast.LENGTH_SHORT).show();
+        btn4.setOnClickListener(v -> { // Using Lambda, v is the view representing the button
+            Log.d("MAD", "Button 4 clicked");
+            Toast.makeText(getBaseContext(), (String) ((Button)v).getText().toString() + " clicked", Toast.LENGTH_SHORT).show();
         });
 
     }
